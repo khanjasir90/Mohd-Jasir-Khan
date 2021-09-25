@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700|Roboto:300,400,500,700,900&amp;display=swap");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "Poppins",sans-serif;
+    color: #222222;
+    line-height: 1.2em;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 600;
+}
+body {
+    color: #777777;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.625em;
+    position: relative;
+}
+.nav-link{
+    font-size: 25px;
+}
+p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.container{
+    overflow: auto;
+}
+.vertical-center{
+    display: flex;
+    align-items: center;
+}
+.wrap .about-descr .bold-text {
+    position: absolute;
+    top: -80px;
+    left: 10px;
+    right: 0;
+    bottom: 0;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.08);
+    text-transform: uppercase;
+    font-size: 450;
+}
+.social-links li {
+    list-style: none;
+    display: inline-block;
+}
+.social-links li a {
+    height: 50px;
+    width: 50px;
+    display: block;
+    float: left;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+    position: relative;
+}
+.social-links li a ion-icon {
+    position: absolute;
+    font-size: 26px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s;
+}
+.social-links li a:hover {
+    color: #111;
+    transition: all 0.3s;
+}
